@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: rgb(184, 246, 183);
+        }
+        .Box{
+            height: 300px;
+            width: 300px;
+            margin: 10px;
+            background-color: bisque;
+            border: solid black;
+            border-radius: 5rem;
+        }
+        img{
+            padding-top: 25px;
+            border-radius: 8rem;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+        form{
+            margin-top: 80px;
+        }
+    </style>
+</head>
+<body>
+   <h2>Welcome !!</h2>
+   <div class="container">
+    <div class="Box">
+     <img src="Temperature.png" style="width: 300px;height: 250px;"><br><br>
+     <h3>Temperature:</h3>
+    </div>
+    <div class="Box">
+        <img src="cloudiness.png" style="width:300px"><br><br><br><br>
+        <h3>Wind Speed:</h3>
+       </div>
+       <div class="Box">
+        <img src="Humidity.png" style="width: 300px;height: 250px;"><br><br>
+        <h3>Precipitation:</h3>
+       </div>
+   </div>
+   <form>
+    <input value="City name..." type="text" style="width: 200px;height: 40px;font-size: 20px; border-radius: 4rem;"><br><br>
+    <button>Get Data</button>
+   </form>
+    <script src="script.js"></script>
+</body>
+</html>
